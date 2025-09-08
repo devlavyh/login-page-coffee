@@ -17,7 +17,7 @@ Esta login page é um projeto realizado seguindo com base o último projeto do "
 
 ## 🎯 Objetivo:
 
-1. Praticar HTML e CSS um projeto realista;
+1. Praticar HTML e CSS em um projeto realista;
 2. Criar uma login page responsiva para diferentes dispositivos;
 3. Aprender a integrar ícones, botões e efeitos visuais;
 4. Desenvolver habilidades em design moderno e personalização de layouts.
@@ -26,3 +26,4 @@ Esta login page é um projeto realizado seguindo com base o último projeto do "
 
 
 - Google Fonts (Fontes e Ícones);
+

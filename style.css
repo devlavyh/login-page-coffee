@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --color-primary: #4B2E2E;
+  --color-buttons: #6B4F3F;
+  --color-secundary: #F5E9D7;
+  --highlights: #D7B899;
+  --details: #3C6E47;
+  --text: #FFF
+}
+
+body, html{
+  background-color: var(--color-buttons);
+  height: 100vh;
+  width: 100vw;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;  
+}
+
+.login{
+  background-color: var(--text);
+  width: 90%;
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+
+  transition: width 0.3s, height 0.3s ease;
+}
+
+.imagem{
+  display: block;
+  background: url(src/image-coffee.jpg) no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+}
+
+.formulario h1{
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.formulario p{
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+form input{
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  padding: 8px;
+  width: 100%;
+}
+
+form input:focus{
+  border-color: var(--color-buttons);
+}
+
+form button{
+  background-color: var(--color-buttons);
+  color: var(--color-secundary);
+  font-size: 1rem;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+
+  transition: all 0.3s ease;
+}
+
+form button:hover{
+  background-color: var(--details);
+}
+
+form button:active{
+  transform: translateY(3px);
+}
+
+form a{
+  color: #434343;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+form a:hover{
+  text-decoration: underline;
+}
+
+.campo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.campo span{
+  padding-right: 8px;
+}
